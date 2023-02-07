@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/',(req,res)=> {
-    res.status(200).send(<h1>Welcome to API</h1)
+    res.status(200).send('<h1>Welcome to API</h1>')
 });
 
 app.listen(PORT, ()=> console.log(`Running API ${PORT}`));
