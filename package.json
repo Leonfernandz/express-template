@@ -1,5 +1,5 @@
 {
-  "name": "mysql_api",
+  "name": "exercise_orm",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,11 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mysql2": "^3.1.1",
+    "sequelize": "^6.28.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.0"
   }
 }
